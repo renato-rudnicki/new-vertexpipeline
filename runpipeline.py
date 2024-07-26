@@ -126,7 +126,7 @@ class vertex_ai_pipeline:
             'max_nodes': 4,
             'deployment_project': self.PROD_PROJECT_ID,
             # Replace encryption with the name of the kms key in the kms project of the prod folder and the prod kms ID project
-            "encryption": 'projects/prj-p-kms-clpb/locations/us-central1/keyRings/sample-keyring/cryptoKeys/prj-p-ml-machine-learning',
+            "encryption": 'projects/prj-p-kms-clpb/locations/us-central1/keyRings/sample-keyring/cryptoKeys/prj-p-mlmachine-learning',
             "service_account": self.SERVICE_ACCOUNT,
             "prod_service_account": self.PROD_SERVICE_ACCOUNT
         }
