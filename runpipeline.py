@@ -38,7 +38,7 @@ class vertex_ai_pipeline:
                  # Replace the {prod-project_id} for your prod-project-id
                  PROD_PROJECT_ID: str = "prj-p-mlmachine-learning-o4ne",
                  REGION: str = "us-central1",
-                 BUCKET_URI: str = "gs://bkt-n-ml-storage-2b5e3d0l",
+                 BUCKET_URI: str = "bucket_uri",
                  DATA_PATH: str = "data",
                  KFP_COMPONENTS_PATH: str = "components",
                  SRC: str = "src",
@@ -53,7 +53,8 @@ class vertex_ai_pipeline:
                  DATAFLOW_SUBNET: str = "https://www.googleapis.com/compute/v1/projects/prj-n-shared-restricted-w2yi/regions/us-central1/subnetworks/sb-n-shared-restricted-us-central1",
                  JOB_NAME: str = "census-ingest",
                  # Replace the <non_prod_project_number> with your non_prod_project_number
-                 SERVICE_ACCOUNT: str = "245359292187-compute@developer.gserviceaccount.com",
+                 ###SERVICE_ACCOUNT: str = "245359292187-compute@developer.gserviceaccount.com",
+                 SERVICE_ACCOUNT: str = "686298173569-compute@developer.gserviceaccount.com",
                  # Replace the <prod_project_number> with your prod_project_number
                  PROD_SERVICE_ACCOUNT: str = "350128353792-compute@developer.gserviceaccount.com",
                  # Replace the Dataflow SA with your dataflow-sa from non-prod

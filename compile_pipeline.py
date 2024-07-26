@@ -512,7 +512,7 @@ def create_monitoring(
             schedule_config=schedule_config,
             alert_config=alerting_config,
             objective_configs=objective_config,
-            analysis_instance_schema_uri=f"gs://bkt-n-ml-storage-2b5e3d0l/monitoring_schema.yaml",
+            analysis_instance_schema_uri=f"gs://{bucket_name}/monitoring_schema.yaml",
             encryption_spec_key_name=encryption,
         )
 # create_monitoring = components.create_component_from_func(
